@@ -3,5 +3,5 @@
  */
 
 export default {
-    base : '/Boxel/'
+    base : process.env.NODE_ENV === 'production' ? '/Boxel/' : ''
 }
